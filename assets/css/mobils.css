@@ -105,3 +105,57 @@
         width: 35px;
     }
 }
+
+/* resposive login end */
+
+/* resposive help center */
+@media (max-width: 768px) {
+    .inquiries .top-btn{
+        padding: 20px 0 0 25px ;
+    }
+    .inquiries .contact-support .contact-support-box{
+        justify-content: center;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .inquiries .contact-support .contact-support-text h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .inquiries .contact-support .contact-support-text p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 425px) {
+    .inquiries .nav {
+        gap: 10px;
+        padding: 16px 0 0 0;
+    }
+
+    .inquiries .nav .nav-item:has(.nav-link.active) {
+        padding: 5px 15px;
+    }
+
+    .inquiry-header {
+        justify-content: end;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+    }
+    .inquiries .row-container {
+        padding: 15px;
+    }
+}
+@media (max-width: 325px) {
+    .inquiries .nav {
+        gap: 5px;
+        padding: 16px 0 0 0;
+    }
+
+    .inquiries .nav .nav-item:has(.nav-link.active) {
+        padding: 5px;
+    }
+}
+/* resposive help center end */
