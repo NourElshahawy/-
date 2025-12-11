@@ -484,3 +484,241 @@ input[type="password"] {
 }
 /* pop-up model end */
 /* help center end */
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* help-center employee */
+
+ .banner{
+    position: relative;
+    background: 
+        url("../assets/images/help-center\ \(1\).png") 80% 70% / 60px no-repeat,
+        url("../assets/images/help-center\ \(2\).svg") 100% 100% / 70px no-repeat,
+        url("../assets/images/help-center\ \(3\).svg") 90% 20% / 50px no-repeat,
+        url("../assets/images/help-center\ \(4\).svg") 0% 100% / 65px no-repeat,
+        url("../assets/images/help-center\ \(5\).svg") 20% 70% / 55px no-repeat,
+        url("../assets/images/help-center\ \(1\).svg") 10% 20% / 60px no-repeat,
+        linear-gradient(313.81deg, #033400 0%, #0E7300 75.34%, #033400 150.69%);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .banner .banner-content{
+    width: 50%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 22;
+}
+ .banner .banner-content .banner-heading{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+ .banner .banner-content .banner-desc{
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
+}
+ .banner .banner-content .search-container {
+    position: relative;
+    max-width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0.5px solid #ffffff8a;
+}
+
+ .banner .banner-content .search-container input {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0 45px 0 90px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+}
+
+ .banner .banner-content .search-container input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ .banner .banner-content .search-btn {
+    position: absolute;
+    transform: translateY(-50%);
+    left: 8px;
+    top: 50%;
+    cursor: pointer;
+}
+
+ .banner .banner-content .search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #BDBDBD;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+/* help-center-contact */
+.help-center-contact{
+    padding-top: 26px;
+}
+.help-center-contact .nav {
+    width: 100%;
+    align-items: center;
+    border: 0;
+}
+.help-center-contact .nav .nav-item{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.help-center-contact .nav .nav-item .nav-link{
+    width: 100%;
+    color: #38D430;
+    padding: 10px 0 ;
+    background: #ffffff;
+    border: 0px;
+}
+.help-center-contact .nav-tabs .nav-item.show .nav-link,
+.help-center-contact .nav-tabs .nav-link.active{
+    background: #38D430;
+    width: 100%;
+}
+.help-center-contact .nav .nav-item .nav-link.active{
+    color: #ffffff;
+}
+.help-center-contact .nav .nav-item:nth-child(1) .nav-link{
+    border-top-right-radius: 16px ;
+    border-top-left-radius: 0px ;
+}
+.help-center-contact .nav .nav-item:nth-child(2) .nav-link{
+    border-top-right-radius: 0px ;
+    border-top-left-radius: 16px ;
+}
+
+
+/* help-center-contact-faq */
+.help-center-contact .tab-content .tab-pane .faq {
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    padding: 16px;
+}
+
+.help-center-contact .tab-content .tab-pane .faq .faq-item {
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.help-center-contact .tab-content .tab-pane .faq .faq-item .faq-question {
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #A2A2A2;
+    font-size: 18px;
+}
+
+.help-center-contact .tab-content .tab-pane .faq .faq-item.active .faq-question{
+    color: #ffffff;
+}
+.help-center-contact .tab-content .tab-pane .faq-item.active {
+    background: linear-gradient(313deg, #033400, #0E7300);
+    color: #fff;
+    border-radius:16px ;
+}
+.help-center-contact .tab-content .tab-pane .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0px 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+}
+
+.help-center-contact .tab-content .tab-pane .faq-item.active .faq-answer {
+    display: block;
+    padding: 5px 30px 15px;
+    max-height: 200px;
+}
+
+.help-center-contact .tab-content .tab-pane .faq-question .icon img {
+    width: 30px;
+    height: 30px;
+}
+.help-center-contact .tab-content .tab-pane .faq-item.active .faq-question .icon img {
+    transform: rotate(180deg);
+}
+
+/* help-center-contact-faq end */
+
+/* contact form  */
+.help-center-contact .tab-content .tab-pane:nth-child(2){
+    background: #fff;
+    height: 100%;
+    padding: 50px 0;
+}
+.help-center-contact .tab-content .tab-pane .contact-form {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+}
+.help-center-contact .tab-content .tab-pane .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.help-center-contact .tab-content .tab-pane .form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.help-center-contact .tab-content .tab-pane .form-group input,
+.help-center-contact .tab-content .tab-pane .form-group textarea {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+.help-center-contact .tab-content .tab-pane .form-group textarea {
+    resize: none;
+    height: 120px;
+}
+
+.help-center-contact .tab-content .tab-pane .form-group input:focus,
+.help-center-contact .tab-content .tab-pane .form-group textarea:focus {
+    border-color: #0E7300;
+}
+.help-center-contact .tab-content .tab-pane .main_btn {
+    margin: 30px auto 0;
+    padding: 5px 45px ;
+    display: flex;
+    justify-content: center;
+}
+
+/* contact form  end */
+/* help-center-contact end */
+/* help-center employee end */

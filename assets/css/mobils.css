@@ -159,3 +159,52 @@
     }
 }
 /* resposive help center end */
+
+
+
+
+/* help-center-employee */
+@media (max-width: 1024px) {
+    .help-center .banner .banner-content{
+        padding: 25px ;
+        width: 80%;
+    } 
+    .help-center .banner .banner-content .banner-heading{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .help-center .banner .banner-content .search-container input {
+        padding: 0 35px;
+        font-size: 14px;
+    }
+    .help-center .banner .banner-content .search-icon{
+        font-size: 14px;
+    }
+    .help-center .banner .banner-content .search-btn {
+        font-size: 14px !important;
+    }
+    
+    /* faq */
+    .help-center-contact .tab-content .tab-pane .faq .faq-item .faq-question {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .help-center-contact .tab-content .tab-pane .faq-answer {
+        font-size: 12px;
+    }
+    
+    /* faq end */
+    /* contact-form */
+    .help-center-contact .tab-content .tab-pane .contact-form {
+        max-width: 90%;
+    }
+    /* contact-form end */
+}
+/* help-center end */
+@media (max-width: 425px) {
+    .help-center-contact .nav .nav-item .nav-link{
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
