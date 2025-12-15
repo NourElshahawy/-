@@ -722,3 +722,13 @@ input[type="password"] {
 /* contact form  end */
 /* help-center-contact end */
 /* help-center employee end */
+
+
+/* donations */
+.match-card .match-label-1 p {
+  background: radial-gradient(50% 257.84% at 50% 50%, #CB00CB 0%, #810081 100%);
+}
+.match-card .match-label-2 p {
+  background: radial-gradient(50% 257.84% at 50% 50%, #0084DE 0%, #004C84 100%);
+}
+/* donations */
